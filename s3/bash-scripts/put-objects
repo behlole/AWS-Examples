@@ -1,0 +1,23 @@
+#! /usr/bin/env bash
+set -e
+
+echo "== SYNCING OBJECTS =="
+
+if [ -z "$1" ]; then
+    echo "There needs to be a bucket name"
+    exit 1
+fi
+
+if [ -z "$2" ]; then
+    echo "Check for filename prefix "
+    exit 1
+fi
+OUTPUT_DIR="/tmp/s3-bash-scripts"
+FILENAME=$2
+BUCKET_NAME=$1
+OBJECT_KEY=$(basename "$FILENAME")
+mkdir -p $OUTPUT_DIR
+
+aws s3api put-object --bucket $BUCKET_NAME \
+--body $FILENAME \
+--key=$OBJECT_KEY
