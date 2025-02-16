@@ -1,0 +1,10 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
+
+# gem "rails"
+gem 'aws-sdk-s3'
+gem 'pry' # debugging tool
+gem 'nokogiri'  # for parsing things like parsing xml, useful for working with APIs

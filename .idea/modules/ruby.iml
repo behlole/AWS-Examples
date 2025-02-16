@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../s3/sdk/ruby">
+      <sourceFolder url="file://$MODULE_DIR$/../../s3/sdk/ruby/features" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../s3/sdk/ruby/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../s3/sdk/ruby/test" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../s3/sdk/ruby/gems/nokogiri-1.10.10/ext/nokogiri/tmp" />
+    </content>
+    <orderEntry type="jdk" jdkName="rbenv: 2.7.2" jdkType="RUBY_SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="RubyModuleProperties">
+    <option name="autoCreated" value="true" />
+  </component>
+</module>

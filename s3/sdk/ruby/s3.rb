@@ -26,6 +26,7 @@ number_of_files.times.each do |i|
   end
 
   File.open(output_path, "r") do |f|
+    puts filename
     client.put_object(bucket: bucket_name, key: filename, body: f)
   end
 end
