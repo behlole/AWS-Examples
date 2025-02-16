@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: A simple cloud formation format
+Resources:
+  S3Bucket:
+    Type: 'AWS::S3::Bucket'
+#    DeletionPolicy: Retain
+#    Properties:
+#      BucketName: 'behlole-cool-bucket'
+
