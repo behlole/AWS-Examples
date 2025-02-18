@@ -1,0 +1,16 @@
+{
+  "Grants": [
+    {
+      "Grantee": {
+        "DisplayName": "behlole",
+        "ID": "c6a967e7a1a321f371eec769fce943ea7c00e97fc2bc260f504e1fc72c232739",
+        "Type": "CanonicalUser"
+      },
+      "Permission": "FULL_CONTROL"
+    }
+  ],
+  "Owner": {
+    "DisplayName": "behlole",
+    "ID": "c6a967e7a1a321f371eec769fce943ea7c00e97fc2bc260f504e1fc72c232739"
+  }
+}
