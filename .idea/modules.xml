@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/AWS-Examples.iml" filepath="$PROJECT_DIR$/.idea/AWS-Examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/encryption-client.iml" filepath="$PROJECT_DIR$/.idea/modules/encryption-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/method_source-1.1.iml" filepath="$PROJECT_DIR$/.idea/modules/method_source-1.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mini_portile2-2.4.iml" filepath="$PROJECT_DIR$/.idea/modules/mini_portile2-2.4.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ruby.iml" filepath="$PROJECT_DIR$/.idea/modules/ruby.iml" />
